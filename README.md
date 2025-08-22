@@ -56,8 +56,8 @@ Vector Database (ChromaDB) + PostgreSQL
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd ai-qa-app
+git clone https://github.com/shamimkhaled/qna-ai-web-app.git
+cd qna-ai-web-app
 ```
 
 ### 2. Environment Setup
@@ -180,21 +180,7 @@ npm start
 - `POST /api/qa/ask/` - Ask question about document
 - `GET /api/qa/history/` - Get Q&A history
 
-## 🧪 Testing
 
-### Run Backend Tests
-
-```bash
-cd backend
-python manage.py test
-```
-
-### Run Frontend Tests
-
-```bash
-cd frontend
-npm test
-```
 
 ## 🌟 Key Features Implementation
 
