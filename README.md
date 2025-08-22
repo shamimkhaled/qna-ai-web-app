@@ -117,7 +117,7 @@ qna-ai-web-app/
 └── README.md
 ```
 
-## 🔧 Development Setup
+## 🔧 Development Setup (How to run project)
 
 ### Backend Development
 
