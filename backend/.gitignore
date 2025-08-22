@@ -1,0 +1,555 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+docs
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyCharm
+#  project, it is generally recommended to include the .idea directory.
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (uncomment if you want to ignore migrations)
+# */migrations/*.py
+# */migrations/*.pyc
+# !*/migrations/__init__.py
+
+# Static files (if collected)
+/static/
+/staticfiles/
+/collected_static/
+
+# Media files (user uploads)
+/media/
+/uploads/
+
+# Django secret key
+.secret_key
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Configuration files with sensitive data
+config.ini
+settings_local.py
+secrets.json
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+chroma_db/
+
+# PostgreSQL
+*.sql
+*.dump
+
+# MySQL
+*.sql
+
+# Redis dump
+dump.rdb
+
+# Logs
+logs/
+*.log
+django.log
+celery.log
+gunicorn.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Cache
+.cache/
+cache/
+.redis/
+
+# Session data
+django_session/
+
+# Email backends (if using file backend)
+sent_emails/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Node.js (if using for frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Build outputs
+build/
+dist/
+
+# Production files
+*.tgz
+*.tar.gz
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml.local
+*.yml.local
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+service-account-key.json
+
+# Azure
+.azure/
+
+# Heroku
+.heroku/
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# SSL certificates
+*.crt
+*.csr
+*.pem
+*.p12
+*.pfx
+
+# API keys and secrets
+api_keys.txt
+secrets.txt
+.secrets
+credentials.json
+
+# Test files
+test_data/
+test_uploads/
+test_media/
+
+# Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Profiling
+.prof
+
+# Memory dumps
+*.hprof
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Conda environments
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Google OAuth credentials
+client_secret.json
+google_credentials.json
+
+# Social media app credentials
+facebook_app_secret.txt
+twitter_credentials.json
+
+# Payment gateway credentials
+stripe_keys.json
+paypal_credentials.txt
+
+# Email service credentials
+sendgrid_api_key.txt
+mailgun_credentials.json
+
+# SMS service credentials
+twilio_credentials.json
+
+# Cloud storage credentials
+aws_credentials.txt
+gcp_credentials.json
+azure_credentials.txt
+
+# Database connection strings
+database_url.txt
+redis_url.txt
+
+# Monitoring and analytics
+sentry_dsn.txt
+google_analytics_id.txt
+
+# Custom application logs
+app.log
+error.log
+access.log
+debug.log
+
+# Backup directories
+backups/
+backup/
+dumps/
+
+# Temporary upload directories
+tmp_uploads/
+temp_media/
+
+# Generated files
+generated/
+auto_generated/
+
+# Build artifacts
+artifacts/
+releases/
+
+# Documentation builds
+docs/_build/
+docs/site/
+
+# Translation files
+locale/*/LC_MESSAGES/*.mo
+
+# Compiled static files
+static_compiled/
+assets_compiled/
+
+# Webpack bundles (if using)
+webpack-stats.json
+bundle-stats.json
+
+# Parcel cache
+.parcel-cache/
+
+# ESLint cache
+.eslintcache
+
+# Stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file (keep this last for clarity)
+.env
+.env.test
+.env.production
+.env.local
+
+# Local environment overrides
+.env.*.local
+
+# Custom ignore patterns for this project
+# Add your specific files/directories here
+
+# Example: Ignore specific config files
+# config/production.py
+# config/staging.py
+
+# Example: Ignore specific data directories
+# data/
+# fixtures/private/
+
+# Example: Ignore generated documentation
+# api_docs/
+# schema_docs/
