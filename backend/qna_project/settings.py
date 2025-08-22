@@ -91,6 +91,21 @@ DATABASES = {
 }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': config('DB_NAME', default='postgres'),
+#         'USER': config('DB_USER', default='chainsight_user'),
+#         'PASSWORD': config('DB_PASSWORD', default='password'),
+#         'HOST': config('DB_HOST', default=''),
+#         'PORT': config('DB_PORT', default='5432'),
+#         'OPTIONS': {
+#             'sslmode': 'require',
+#         },
+#     }
+# }
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
@@ -174,7 +189,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 # OpenAI Configuration
-OPENAI_API_KEY = 'your-openai-api-key' 
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
 # ChromaDB Configuration
 CHROMA_PERSIST_DIRECTORY = os.getenv('CHROMA_PERSIST_DIRECTORY', './chroma_db')
 
