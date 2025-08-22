@@ -68,36 +68,20 @@ Create `.env` file in the root directory:
 # OpenAI Configuration
 OPENAI_API_KEY=your_openai_api_key_here
 
-# Database Configuration
+# Database Configuration (Optional)
 POSTGRES_DB=qa_app_db
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres123
 POSTGRES_HOST=db
 POSTGRES_PORT=5432
 
-# Django Configuration
-SECRET_KEY=your_secret_key_here
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
-
 # ChromaDB Configuration
 CHROMA_PERSIST_DIRECTORY=./chroma_db
-
-# JWT Configuration
-JWT_SECRET_KEY=your_jwt_secret_key_here
 ```
 
-### 3. Run with Docker Compose
 
-```bash
-# Build and start all services
-docker-compose up --build
 
-# Or run in detached mode
-docker-compose up -d --build
-```
-
-### 4. Access the Application
+### 3. Access the Application
 
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
