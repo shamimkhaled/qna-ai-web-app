@@ -62,7 +62,7 @@ cd qna-ai-web-app
 
 ### 2. Environment Setup
 
-Create `.env` file in the root directory:
+Create `.env` file in the root directory or inside of backend directory:
 
 ```env
 # OpenAI Configuration
@@ -79,13 +79,6 @@ POSTGRES_PORT=5432
 CHROMA_PERSIST_DIRECTORY=./chroma_db
 ```
 
-
-
-### 3. Access the Application
-
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/swagger/
 
 ## 📁 Project Structure
 
@@ -144,6 +137,12 @@ cd frontend
 npm install
 npm start
 ```
+
+### Access the Application
+
+- **Frontend**: http://localhost:3000
+- **Backend API**: http://localhost:8000
+- **API Documentation**: http://localhost:8000/swagger/
 
 ## 📚 API Documentation
 
