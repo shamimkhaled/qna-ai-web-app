@@ -150,7 +150,7 @@ npm start
 
 - `POST /api/auth/register/` - User registration
 - `POST /api/auth/login/` - User login
-- `POST /api/auth/refresh/` - Token refresh
+
 
 ### Document Endpoints
 
